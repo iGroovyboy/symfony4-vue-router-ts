@@ -1,0 +1,5 @@
+composer create-project symfony/website-skeleton FOLDER_NAME
+yarn add node-sass ts-loader typescript vue vue-loader vue-template-compiler --dev
+yarn add vue-router
+git clone --depth=1 git://someserver/somerepo FOLDER_NAME
+rm -rf ./FOLDER_NAME/.git

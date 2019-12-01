@@ -1,0 +1,22 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello HomeController!{% endblock %}
+
+{% block body %}
+<div class="example-wrapper">
+    Serv:
+    {{x}}
+    {# <p>Go to <a href="{{ path('balance_data') }}">Balance data</a></p> #}
+    <ul>
+        <li>GET /api/gamedata/protoss</li>
+        <li>GET /api/gamedata/balance/protoss</li>
+        <li>POST /api/buildorder/simulate</li>
+        <li>POST /api/buildorder/generate</li>
+    </ul>
+</div>
+VUE:
+<div id="app">
+    <App></App>
+</div>
+END VUE
+{% endblock %}
